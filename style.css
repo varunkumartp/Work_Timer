@@ -1,0 +1,34 @@
+        body {
+            background-image: linear-gradient(155deg, #383838, #585858, #787878);
+            color: #ffb760;
+            font-size: 2em;
+            text-align: center;
+            padding: 1%;
+            height: 100vh;
+            overflow: auto;
+        }
+        
+        button {
+            background-color: black;
+            border-color: #ffb760;
+            color: #ffb760;
+            font-size: 0.5em;
+            margin: 2em 4em;
+            width: 10em;
+            height: 2em;
+            border-width: 0.2em;
+            border-radius: 1em;
+            border-style: outset;
+        }
+        
+        button:hover {
+            background-color: #363636;
+        }
+        
+        button:active {
+            transform: translateY(1px);
+        }
+        
+        button:disabled {
+            background-color: black;
+        }
